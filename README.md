@@ -2,7 +2,8 @@
 
 Realtime Drawing Game built with SocketIO, Gulp and Node
 
-https://safe-thicket-91758.herokuapp.com/
+https://agile-beach-79677.herokuapp.com/
+
 
 ## To Do:
 
