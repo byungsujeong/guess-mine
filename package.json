@@ -26,13 +26,7 @@
   },
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
-    "dev:assets": "gulp",
-    "build:assets": "gulp",
-    "build:server": "babel src --out-dir build --ignore assets/ --ignore src/static",
-    "copyAll": "cp -R src/static build",
-    "build": "yarn build:server && yarn build:asstes && npm run copyAll",
-    "prebuild": "rm -rf build",
-    "start": "node build/server.js"
+    "dev:assets": "gulp"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.11.0",
