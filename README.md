@@ -2,7 +2,7 @@
 
 Realtime Drawing Game built with SocketIO, Gulp and Node
 
-https://agile-beach-79677.herokuapp.com/
+https://salty-everglades-49477.herokuapp.com/
 
 
 ## To Do:

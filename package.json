@@ -28,7 +28,7 @@
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
     "dev:assets": "gulp",
-    "build:assets": "gulp",
+    "build:assets": "gulp.build",
     "build:server": "babel src --out-dir build --ignore 'src/assets','src/static'",
     "copyAll": "cp -R src/static build",
     "build": "npm run build:server && npm run build:assets && npm run copyAll",
