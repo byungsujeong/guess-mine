@@ -13,7 +13,8 @@ app.use(logger("dev"));
 app.use(express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => res.render("home", { events: JSON.stringify(events) }));
 
-const handleListening = () => console.log(`✅ Server running: http://localhost:${PORT}`);
+//const handleListening = () => console.log(`✅ Server running: http://localhost:${PORT}`);
+const handleListening = () => console.log(`✅ Server running: https://safe-thicket-91758.herokuapp.com/`);
 
 const server = app.listen(PORT, handleListening);
 
